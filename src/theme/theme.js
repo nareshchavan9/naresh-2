@@ -20,7 +20,12 @@ const theme = createTheme({
     },
   },
   typography: {
-    fontFamily: "'Roboto', 'Helvetica', 'Arial', sans-serif",
+    fontFamily: "'Poppins', 'Helvetica', 'Arial', sans-serif",
+    h1: {
+      fontFamily: "'Cinzel Decorative', cursive",
+      fontWeight: 700,
+      letterSpacing: '0.2px',
+    },
     h4: {
       fontWeight: 600,
       color: '#1A237E',
